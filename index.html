@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Code</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <h1 class="hero-heading">
+        Welcome to the <span>Morse Code Translator</span>
+      </h1>
+    </header>
+
+    <section class="container">
+      <div>
+        <div clas="userInput">
+          <textarea
+            id="txt-input"
+            placeholder="Enter the text in english to receive the morse code."
+          ></textarea>
+          <a
+            style="
+              text-decoration: none;
+              color: var(--text-color);
+              text-align: center;
+            "
+            href="#output"
+            ><button id="btn-translate">Translate</button></a
+          >
+        </div>
+
+        <h3 class="output-heading">Your morse code will appear below 👇</h3>
+
+        <div id="output"></div>
+      </div>
+    </section>
+
+    <footer
+      style="
+        background-color: var(--primary-color);
+        padding: 2rem;
+        text-align: center;
+      "
+    >
+      <h3>About the translator</h3>
+      <p>
+        The Morse code translator encode text characters as standardized
+        sequences of dots and dashes.<br />
+        <strong>Have FUN!</strong>
+      </p>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

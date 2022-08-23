@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #14b8a6;
+  --textarea-color: #5eead4;
+  --btn-border: #99f6e4;
+  --btn-color: #2dd4bf;
+  --text-color: #292524;
+  --body-color: #f0fdfa;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amaranth", sans-serif;
+  text-rendering: optimizeLegibility;
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+.hero {
+  background-color: var(--primary-color);
+  padding: 3rem;
+}
+
+.hero-heading {
+  margin: 0;
+}
+
+.container {
+  padding: 1rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#txt-input {
+  width: 60%;
+  height: 40vh;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: var(--textarea-color);
+  text-align: center;
+  border-radius: 2rem;
+  font-size: larger;
+  font-weight: 600;
+}
+
+#btn-translate {
+  display: block;
+  margin: auto;
+  padding: 0.5rem 2rem;
+  background-color: var(--btn-color);
+  border: 1px solid var(--btn-border);
+  border-radius: 1rem;
+  font-weight: bold;
+}
+
+.output-heading {
+  text-align: center;
+}
+
+#output {
+  width: 60%;
+  height: 40vh;
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: var(--textarea-color);
+  text-align: center;
+  border-radius: 2rem;
+  border: 1px solid var(--text-color);
+  font-weight: 600;
+}
