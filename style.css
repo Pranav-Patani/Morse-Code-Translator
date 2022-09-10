@@ -21,6 +21,7 @@ body {
   text-rendering: optimizeLegibility;
   color: var(--text-color);
   background-color: var(--body-color);
+  text-align: center;
 }
 
 .hero {
