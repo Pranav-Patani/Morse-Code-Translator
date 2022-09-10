@@ -20,4 +20,5 @@ You can refer to the below images for a better understanding of the web-app.
 
 ![output field](images/output.png)
 
+***
 #### HAVE FUN TALKING DOTS AND DASHES!
